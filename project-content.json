@@ -1,0 +1,587 @@
+[
+  {
+    "slug": "shock-transmission",
+    "title": "Shock-wave transmission",
+    "category": "Experimental research",
+    "kind": "MSc thesis · KTH · 2026",
+    "role": "Thesis researcher",
+    "lead": "Capturing how underwater shocks transmit through PLA, aluminium and copper.",
+    "tags": [
+      "Shadowgraphy",
+      "Image analysis",
+      "MATLAB"
+    ],
+    "source": "Master Thesis Brian Bertacco(1).pdf",
+    "overview": "My MSc thesis investigated how material and thickness influence shock transmission at solid–water interfaces. The work combined pulsed-power experiments, high-speed optical diagnostics and pressure measurements with a dedicated data-analysis workflow.",
+    "work": [
+      "Conducted experiments using electrically exploding copper foils in water, with PLA, aluminium and copper samples.",
+      "Tracked transmitted and reflected fronts from high-speed shadowgraph images and analysed hydrophone measurements.",
+      "Developed the processing workflow for ROI alignment, camera-tilt correction, stack-offset correction and local shock-velocity estimation.",
+      "Compared acoustic, dynamic and nonlinear Hugoniot approaches to interface transmission."
+    ],
+    "results": "The measured waves weakened with increasing sample thickness. Copper produced strongly attenuated transmitted waves, while aluminium exhibited a clear dependence on thickness. The comparison also showed why simple acoustic approximations become insufficient for stronger shocks.",
+    "limits": "The conclusions apply to the tested materials, thicknesses and experimental configuration. Source coupling, material porosity and uncertainty in shock-front tracking affect the interpretation; the study is not a qualification test of a finished protective structure.",
+    "metrics": [
+      [
+        "5 Mfps",
+        "Shadowgraph acquisition"
+      ],
+      [
+        "3",
+        "Material families"
+      ],
+      [
+        "0.05–5 mm",
+        "Aluminium thickness range"
+      ]
+    ],
+    "gallery": [
+      [
+        "shock.webp",
+        "Free-field baseline, Shot 2 at 18.2 µs. MSc thesis, Figure 13(d), PDF p. 21."
+      ],
+      [
+        "shock-setup.webp",
+        "Pulsed-power experimental facility. MSc thesis, Figure 8, PDF p. 19."
+      ],
+      [
+        "shock-tracking.webp",
+        "Manual region-of-interest extraction used to track the shock front. Figure 16, PDF p. 23."
+      ],
+      [
+        "shock-plot.webp",
+        "Transmitted shock position for 5 mm samples with the 10 µm foil. Figure 20, PDF p. 28."
+      ],
+      [
+        "masterthesis-user.webp",
+        "User-supplied original shadowgraph frame from the thesis sequence; reproduced here as project material."
+      ]
+    ],
+    "credit": "Individual MSc thesis by Brian Bertacco. Supervision: Michael Liverts, Francesc Hernández García and Sebastián Rojas Mata. Figures reproduced from the supplied thesis.",
+    "cover": "shock.webp"
+  },
+  {
+    "slug": "sloshing-control",
+    "title": "Sloshing control & baffle design",
+    "category": "CFD & fluid mechanics",
+    "kind": "EUROAVIA Airbus Sloshing Rocket Workshop · 2026",
+    "role": "Sloshing CFD Lead",
+    "lead": "Using transient multiphase CFD to compare passive baffles for a water-rocket tank.",
+    "tags": [
+      "ANSYS Fluent",
+      "VOF",
+      "Design verification"
+    ],
+    "source": "FINAL_DESIGN_REPORT_SLOSHING_AIRBUS_2026.pdf",
+    "overview": "Project Buzz Lightyear combined a deployable-wing water rocket with a partially filled sloshing tank. My work focused on the fluid dynamics of the tank and the comparison of annular and mixed baffle configurations.",
+    "work": [
+      "Led the baffled-tank CFD analysis for the two candidate designs, as documented in the team deliverable matrix.",
+      "Compared free-surface motion, lateral reaction force, centre-of-gravity displacement and oscillation frequency against the unbaffled baseline.",
+      "Contributed blockage-compliance calculations and risk assessment to the final design report."
+    ],
+    "results": "The report predicts a reduction in peak lateral force from 15.4 N to 4.2 N for the mixed baffle, a 72.7% decrease relative to the unbaffled simulation. The baseline CFD frequency of 3.15 Hz was close to the analytical estimate of 3.11 Hz.",
+    "limits": "These are simulation results for the report’s excitation and fill conditions. At the final-design-report stage, five requirements still awaited physical testing. Flight predictions and team hardware results should be distinguished from the sloshing CFD.",
+    "metrics": [
+      [
+        "72.7%",
+        "Predicted peak-force reduction"
+      ],
+      [
+        "15.4 → 4.2 N",
+        "Simulated lateral force"
+      ],
+      [
+        "50%",
+        "Tank fill condition"
+      ]
+    ],
+    "gallery": [
+      [
+        "slosh.webp",
+        "Mixed baffle configuration with central cruciform structure. Final Design Report, Figure 4, PDF p. 21."
+      ],
+      [
+        "slosh-mesh.webp",
+        "Cross-sectional mesh of the mixed configuration. Figure 5, PDF p. 23."
+      ],
+      [
+        "slosh-phase.webp",
+        "Water volume-fraction contour for the mixed configuration. Figure 6, PDF p. 25."
+      ],
+      [
+        "mixed-baffle-user.webp",
+        "User-supplied rendering of the mixed baffle structure; team simulation asset, also reproduced in the final design report."
+      ]
+    ],
+    "credit": "Team: Brian Bertacco, Tobia De Benedictis, Anna Testani, Lucia Tola and Felice Venuti. The report identifies Brian as Sloshing CFD Lead; other disciplines are credited to their respective team members.",
+    "cover": "slosh.webp"
+  },
+  {
+    "slug": "thermal-vacuum",
+    "title": "Thermal-vacuum coating tests",
+    "category": "Thermal engineering",
+    "kind": "Spacecraft engineering laboratory · KTH",
+    "role": "Experimental work, report & review",
+    "lead": "Characterising spacecraft surface coatings inside KTH’s Space Sauna vacuum chamber.",
+    "tags": [
+      "Thermal vacuum",
+      "Emissivity",
+      "Test analysis"
+    ],
+    "source": "LAB_C_Thermal_G1.pdf",
+    "overview": "This group experiment examined the thermal response of four coated aluminium samples: gold plating, black anodisation, SurTec 650 and Astral ATU2230. Heater inputs and measured temperatures were used to investigate radiative exchange and transient behaviour.",
+    "work": [
+      "Participated in laboratory work, report preparation and peer review, as recorded in the contribution table.",
+      "The team prepared and suspended instrumented samples inside the thermal-vacuum chamber, then adjusted heater power and recorded temperature histories.",
+      "The analysis estimated emissivity and effective heat capacity, accounting for parasitic conduction and departures from ideal equilibrium."
+    ],
+    "results": "The measurements distinguished high-emissivity anodised and Astral surfaces from low-emissivity gold and SurTec surfaces. Estimated conductive losses were around 6% of the heat budget, making them a meaningful correction to the radiation-dominated balance.",
+    "limits": "The LED illumination was unstable, so absorptivity could not be determined reliably. Heat-capacity estimates were sensitive to temperature slopes, measurement noise and the isothermal-sample assumption.",
+    "metrics": [
+      [
+        "4",
+        "Surface coatings"
+      ],
+      [
+        "−50 °C",
+        "Cooled shroud condition"
+      ],
+      [
+        "≈6%",
+        "Estimated conductive losses"
+      ]
+    ],
+    "gallery": [
+      [
+        "tvc-user.webp",
+        "User-supplied thermal-vacuum chamber photograph for visual context. The specific apparatus and image authorship were not documented."
+      ],
+      [
+        "thermal.webp",
+        "Samples suspended inside the Space Sauna chamber. Thermal Test Analysis Report, Figure 2, PDF p. 2."
+      ],
+      [
+        "thermal-plot.webp",
+        "Recorded temperature histories through heating and cooling. Figure 4, PDF p. 5."
+      ]
+    ],
+    "credit": "Group authors: Brian Bertacco, Andreas Wangård, Jonas Planck, Samuele Cuzzi, Tobia De Benedictis and Felice Venuti. Brian’s lab, report and review participation is documented on PDF p. 10.",
+    "cover": "tvc-user.webp"
+  },
+  {
+    "slug": "liquid-metal-cfd",
+    "title": "Liquid-metal heat transfer",
+    "category": "CFD & fluid mechanics",
+    "kind": "Applied Computational Fluid Dynamics · KTH",
+    "role": "Group project co-author",
+    "lead": "Investigating low-Prandtl-number heat transfer in two components of the TALL facility.",
+    "tags": [
+      "ANSYS Fluent",
+      "RANS",
+      "Conjugate heat transfer"
+    ],
+    "source": "Applied_CFD.pdf",
+    "overview": "The project modelled lead–bismuth eutectic in a single-rod heater and a counter-current straight-tube heat exchanger. The central question was how turbulence and thermal-diffusion assumptions influence the agreement between CFD and experimental temperature profiles.",
+    "work": [
+      "Co-authored the group study with Antonio Morrone and Giulio Riva.",
+      "The report documents 2D axisymmetric steady-state models, temperature-dependent material properties implemented through Fluent UDFs, and mesh-sensitivity studies.",
+      "The analysis compares k–ε and k–ω SST models alongside constant and local turbulent-Prandtl-number treatments.",
+      "The heat-exchanger study includes coupled fluid–solid–fluid heat transfer and an analytical ε–NTU heat balance."
+    ],
+    "results": "The report finds that a local Kays turbulent-Prandtl-number treatment improved temperature-profile agreement relative to the globally imposed alternative. Remaining discrepancies underline the importance of heat-loss assumptions and the limits of standard RANS closures for liquid metals.",
+    "limits": "The supplied PDF contains figure placeholders rather than the plotted results. This page therefore summarises the written methodology and conclusions without presenting reconstructed CFD fields. The report does not assign individual ownership of its numerical tasks.",
+    "metrics": [
+      [
+        "2",
+        "TALL components"
+      ],
+      [
+        "2D",
+        "Axisymmetric models"
+      ],
+      [
+        "Low Pr",
+        "Liquid-metal regime"
+      ]
+    ],
+    "gallery": [
+      [
+        "tall-reference.webp",
+        "User-supplied TALL-3D facility reference illustration. This is contextual imagery, not a simulation contour or the 2D geometry of this coursework report."
+      ]
+    ],
+    "credit": "Co-authors: Brian Bertacco, Antonio Morrone and Giulio Riva. This is a coursework study; results are described at team level.",
+    "cover": "tall-reference.webp"
+  },
+  {
+    "slug": "satellite-thermal-control",
+    "title": "Satellite thermal control",
+    "category": "Thermal engineering",
+    "kind": "Spacecraft engineering laboratory · KTH",
+    "role": "Numerical analysis, report Part 2 & presentation",
+    "lead": "Sizing radiators and tuning heater duty cycles across hot, cold and survival cases.",
+    "tags": [
+      "SYSTEMA",
+      "THERMICA",
+      "Thermal control"
+    ],
+    "source": "LAB_D_Thermal_G1.pdf",
+    "overview": "A cube-shaped satellite model was used to study thermal control under beginning- and end-of-life optical properties and seasonal orbital extremes. Analytical radiator and heater sizing was followed by numerical evaluation in SYSTEMA/THERMICA.",
+    "work": [
+      "Contributed to the laboratory work, Part 2 of the report, the Lab D presentation and peer review, as documented in the contribution table.",
+      "The numerical work compared equipment temperatures with and without internal radiative exchange.",
+      "Heater powers were adjusted iteratively to reach target duty cycles in nominal cold and survival modes."
+    ],
+    "results": "The final nominal cold-case duty cycles were 61.9%, 67.5% and 68.5% for the three active heaters. Internal radiation reduced the peak temperature of the hottest node by approximately 9 °C. Survival-mode tuning brought the active heaters to 61%, 67% and 62%.",
+    "limits": "The model assumes a simplified geometry and prescribed thermal couplings. Some cold-case nodes reached the −10 °C lower limit, leaving tight temperature margins. These are numerical design results, separate from the MIST satellite project.",
+    "metrics": [
+      [
+        "60–70%",
+        "Target heater duty cycle"
+      ],
+      [
+        "−10 to +40 °C",
+        "Equipment temperature limits"
+      ],
+      [
+        "≈9 °C",
+        "Modelled hot-node reduction"
+      ]
+    ],
+    "gallery": [
+      [
+        "thermica.webp",
+        "Hot-case equipment temperatures with internal radiation enabled. Thermal Control System report, Figure A.3, PDF p. 13."
+      ],
+      [
+        "orbital-seasons.webp",
+        "Seasonal Earth–Sun geometry supplied by the user; contextual diagram related to the thermal extreme-case setup."
+      ]
+    ],
+    "credit": "Group authors: Andreas Wangård, Brian Bertacco, Tobia De Benedictis, Felice Venuti, Samuele Cuzzi and Jonas Planck. Individual responsibilities are listed on PDF p. 16.",
+    "cover": "thermica.webp"
+  },
+  {
+    "slug": "electric-aircraft",
+    "title": "Two-seat electric aircraft",
+    "category": "Aircraft & spacecraft design",
+    "kind": "Fundamentals of Flight · KTH",
+    "role": "Group project co-author",
+    "lead": "From sizing constraints to aerodynamic performance and longitudinal stability.",
+    "tags": [
+      "Aircraft sizing",
+      "MATLAB",
+      "OpenVSP / VSPAero"
+    ],
+    "source": "Flight_Project.pdf",
+    "overview": "The team developed a conceptual two-seat general-aviation electric aircraft, using the Pipistrel Velis Electro as a starting reference. The study connected weight estimates, wing and tail geometry, aerodynamic analysis, performance and trim.",
+    "work": [
+      "Co-authored the ten-person Fundamentals of Flight design report.",
+      "The team used constraint diagrams and mass estimates to establish the preliminary configuration.",
+      "The documented workflow includes airfoil selection, aerodynamic and drag analysis, mission performance, load factors and longitudinal stability.",
+      "A complete aircraft configuration was analysed with VSPAero."
+    ],
+    "results": "The report’s conceptual design uses a 600 kg maximum take-off mass, a 12,000 ft cruise altitude and an 85 KCAS cruise condition. The estimated 90-minute endurance and calculated trim behaviour support the coursework concept under its stated assumptions.",
+    "limits": "These are conceptual calculations, not measured flight performance or certification evidence. The report itself notes that the VSPAero results should not be used to determine post-stall behaviour. Individual task ownership is not specified.",
+    "metrics": [
+      [
+        "2",
+        "Seats"
+      ],
+      [
+        "600 kg",
+        "Conceptual maximum take-off mass"
+      ],
+      [
+        "90 min",
+        "Calculated endurance"
+      ]
+    ],
+    "gallery": [
+      [
+        "aircraft.webp",
+        "Final team aircraft configuration in OpenVSP. Flight Project, Figure 11, PDF p. 23."
+      ],
+      [
+        "aircraft-constraints.webp",
+        "MATLAB aircraft-sizing constraint diagram. Figure 1, PDF p. 5."
+      ],
+      [
+        "flights-user.webp",
+        "User-supplied rendering of the two-seat electric aircraft concept."
+      ]
+    ],
+    "credit": "Co-authors: Teodor Berg, Carl Bergholtz, Brian Bertacco, Corentin Gauthé, Laura Teresa Hoferer, William Jonsson, Peter Ohlsson, Sakshi Pawar, Alexander Robson and Lucia Tola.",
+    "cover": "aircraft.webp"
+  },
+  {
+    "slug": "lunar-electric-propulsion",
+    "title": "Electric propulsion to the Moon",
+    "category": "Propulsion",
+    "kind": "Rocket Propulsion · KTH · 2025",
+    "role": "Group project co-author",
+    "lead": "Comparing propellants, thrusters and power-system mass for a lunar transfer.",
+    "tags": [
+      "Electric propulsion",
+      "Trade studies",
+      "System sizing"
+    ],
+    "source": "MJ2246___Mission_to_the_Moon.pdf",
+    "overview": "The study sized an electric-propulsion system for a 400 kg spacecraft travelling from geostationary transfer orbit to a lunar polar orbit. Propellant choice, thruster capability, tank mass and power generation were considered together.",
+    "work": [
+      "Co-authored the mission study with Felice Venuti, Aidan Tanner and Alens Snepsts.",
+      "The team compared xenon, krypton, hydrogen and argon, using system-specific impulse as a selection criterion.",
+      "Candidate thrusters were checked against power and specific-impulse limits, with the power-generation mass included in the feasibility assessment."
+    ],
+    "results": "Within the report’s assumptions, xenon and the NSTAR thruster gave the preferred configuration. The selected case reports approximately 43.24 kg of propellant and 73.6 mN average thrust for the specified transfer.",
+    "limits": "This is a preliminary sizing and selection exercise. It does not establish a fully optimised low-thrust trajectory or flight-qualified propulsion system; the reported comparison depends on the assumed mission and component data.",
+    "metrics": [
+      [
+        "400 kg",
+        "Initial spacecraft mass"
+      ],
+      [
+        "3.5 km/s",
+        "Specified Δv"
+      ],
+      [
+        "208 days",
+        "Specified transfer duration"
+      ]
+    ],
+    "gallery": [
+      [
+        "smart-thruster-reference.webp",
+        "User-supplied photograph of SMART-1’s stationary plasma thruster. Reference imagery; not hardware from this coursework study."
+      ]
+    ],
+    "credit": "Group 7: Felice Venuti, Brian Bertacco, Aidan Tanner and Alens Snepsts. Results are attributed to the group study.",
+    "cover": "smart-thruster-reference.webp"
+  },
+  {
+    "slug": "mars-vehicle",
+    "title": "Power & thermal design for Mars",
+    "category": "Aircraft & spacecraft design",
+    "kind": "Human Spaceflight · KTH · 2025",
+    "role": "Power and thermal subsystem contributor",
+    "lead": "Integrating power, heat rejection and deployable hardware into a crewed Mars concept.",
+    "tags": [
+      "System architecture",
+      "Thermal design",
+      "CAD"
+    ],
+    "source": "Vehicle_Design___Blue_Team.pdf",
+    "overview": "The Blue Team’s Vehicle Design subgroup studied the adaptation of a Starship-based vehicle concept for a six-person Mars mission. The work integrated habitat arrangements with power, thermal control, communications, mass budgets and off-nominal scenarios.",
+    "work": [
+      "Shared responsibility for power and thermal work with Koohyar Saebi, as recorded in the report appendix.",
+      "Contributed calculations and CAD for solar panels and radiators.",
+      "Worked within a multidisciplinary vehicle design that balanced subsystem needs with the overall mass and accommodation constraints."
+    ],
+    "results": "The team produced a vehicle concept with subsystem layouts, requirements, budgets and contingency considerations. My contribution connected power generation and thermal management to their physical integration in the vehicle.",
+    "limits": "This is an academic conceptual design, not a SpaceX project or a validated human-rated vehicle. Overall vehicle modelling and rendering are credited to other team members. Mission dates in the report are scenario assumptions.",
+    "metrics": [
+      [
+        "6",
+        "Crew design requirement"
+      ],
+      [
+        "Power",
+        "Subsystem calculations"
+      ],
+      [
+        "Thermal",
+        "Radiators and integration"
+      ]
+    ],
+    "gallery": [
+      [
+        "mars-detail.webp",
+        "Team rendering showing solar arrays, power storage and radiators. Vehicle Design report, Figure 12, PDF p. 13."
+      ],
+      [
+        "mars.webp",
+        "Team CAD rendering of the vehicle interior. Figure 10, PDF p. 12."
+      ],
+      [
+        "payload-user.webp",
+        "User-supplied cross-section rendering of the team’s conceptual Mars vehicle payload arrangement."
+      ],
+      [
+        "mars-illustration.webp",
+        "Illustrative Mars outpost artwork provided by the user, credited in the supplied filename to iamVisual. It is not a rendering of the team’s engineering design."
+      ]
+    ],
+    "credit": "Authors: Brian Bertacco, Koohyar Saebi, Linus Janek Köster, Marcus Randleff and Sharvil Joglekar. Appendix p. 12 credits power/thermal work and associated CAD to Brian and Koohyar; the overall Fusion 360 model and Blender rendering to Sharvil and Marcus.",
+    "cover": "mars-detail.webp"
+  },
+  {
+    "slug": "radioisotope-power",
+    "title": "Radioisotope power & radiation safety",
+    "category": "Space systems",
+    "kind": "BSc thesis · University of Pisa · 2024",
+    "role": "Thesis author",
+    "lead": "Exploring deep-space power generation, reliability and radiation protection.",
+    "tags": [
+      "RTGs",
+      "Reliability",
+      "Radiation protection"
+    ],
+    "source": "TESI_BERTACCO_BRIAN.pdf",
+    "overview": "My bachelor’s thesis reviewed radioisotope thermoelectric generators for space missions and the radiation environment that spacecraft and crews must withstand. It connected thermoelectric conversion with mission-level power and protection considerations.",
+    "work": [
+      "Reviewed RTG operating principles, fuel options and the Seebeck effect.",
+      "Compared radioisotope power with solar generation for different mission environments.",
+      "Developed an illustrative Weibull reliability analysis in MATLAB.",
+      "Examined radiation dosimetry, shielding materials and engineering and operational countermeasures."
+    ],
+    "results": "The thesis presents the advantages and limitations of radioisotope power for long-duration missions and illustrates how assumed lifetime parameters influence reliability estimates.",
+    "limits": "The reliability curves use assumed Weibull parameters and are an educational model, not a validated prediction of MMRTG flight reliability. The work is a literature-based thesis with analytical illustration, not reactor or RTG hardware development.",
+    "metrics": [
+      [
+        "RTG",
+        "Deep-space power"
+      ],
+      [
+        "Weibull",
+        "Illustrative reliability model"
+      ],
+      [
+        "2024",
+        "Bachelor’s thesis"
+      ]
+    ],
+    "gallery": [
+      [
+        "em-mrtg-reference.webp",
+        "User-supplied eMMRTG explanatory diagram. Reference imagery; not hardware developed in the BSc thesis."
+      ],
+      [
+        "rtg.webp",
+        "Illustrative MMRTG reliability curve for the thesis’s assumed Weibull model. BSc thesis, Figure 3.9, PDF p. 15."
+      ]
+    ],
+    "credit": "Individual thesis by Brian Bertacco, University of Pisa. Supervisor: Roberto Galatolo. The original report is in Italian.",
+    "cover": "em-mrtg-reference.webp"
+  },
+  {
+    "slug": "space-debris-removal",
+    "title": "Active removal of space debris",
+    "category": "Space systems",
+    "kind": "Fundamentals of Spaceflight · KTH · 2024",
+    "role": "Debris, spacecraft and cost analysis contributor",
+    "lead": "An early feasibility study of foam-assisted deorbiting in low Earth orbit.",
+    "tags": [
+      "Mission analysis",
+      "Debris removal",
+      "Electric propulsion"
+    ],
+    "source": "Active Removal of Space Debris.pdf",
+    "overview": "This five-author group paper evaluates a spacecraft that would apply expanding foam to selected debris objects, increasing their area-to-mass ratio so atmospheric drag accelerates orbital decay. Target choice, rendezvous, propulsion and mission cost were explored at conceptual level.",
+    "work": [
+      "The report credits me with paper writing and debris, spacecraft and cost analysis.",
+      "The team examined a list of ten target objects and estimated the orbit-transfer needs for visiting them.",
+      "The spacecraft concept includes Hall-effect electric propulsion and an expanding-foam delivery system."
+    ],
+    "results": "The study proposes a 2,500 kg servicing spacecraft with four PPS-5000 thrusters, aiming to treat ten objects within a one-year mission. The intended subsequent deorbiting timeframe is 25 years in the study scenario.",
+    "limits": "This is a preliminary feasibility study with simplified, cooperative debris and idealised foam behaviour. No rendezvous, capture or foam deployment was built or flight tested. Launch and environmental statements in the 2024 course report reflect its scenario assumptions.",
+    "metrics": [
+      [
+        "10",
+        "Selected target objects"
+      ],
+      [
+        "2,500 kg",
+        "Concept spacecraft mass"
+      ],
+      [
+        "1 year",
+        "Proposed servicing mission"
+      ]
+    ],
+    "gallery": [
+      [
+        "earth-debris-user.webp",
+        "User-supplied illustration of Earth and orbital debris. Visual context, not a rendering from the feasibility analysis."
+      ]
+    ],
+    "credit": "Authors: Carl Bergholtz, Alexander Robson, Brian Bertacco, Corentin Gauthé and Peter Ohlsson. Division of work on PDF p. 9 assigns Brian to debris, satellite, cost analysis and writing.",
+    "cover": "earth-debris-user.webp"
+  },
+  {
+    "slug": "aesir-rocketry",
+    "title": "ÆSIR hybrid rocket",
+    "category": "Propulsion",
+    "kind": "KTH Rocketry Team · 2024–2026",
+    "role": "Propulsion & Structures Engineer",
+    "lead": "Hands-on propulsion work, sensor calibration and static-fire testing for Mjolnir.",
+    "tags": [
+      "Hybrid propulsion",
+      "CFD",
+      "Static-fire testing"
+    ],
+    "source": null,
+    "overview": "Mjolnir is the ÆSIR team’s hybrid paraffin–nitrous-oxide rocket project. My experience brought together propulsion analysis, test instrumentation and practical work around static-fire campaigns.",
+    "work": [
+      "Contributed to propulsion development and CFD analysis.",
+      "Participated in static-fire tests and sensor calibration.",
+      "Analysed load-cell measurements relevant to thrust and oxidiser-tank loading."
+    ],
+    "results": "The project developed my experience connecting engineering analysis with instrumented hardware and test data in a student rocketry team.",
+    "limits": "The rocket’s altitude is a design target, not a claimed flight result. This overview is based on the supplied CV; dedicated test reports and project photographs can be added later.",
+    "metrics": [
+      [
+        "Hybrid",
+        "Paraffin / nitrous oxide"
+      ],
+      [
+        "Testing",
+        "Static-fire campaigns"
+      ],
+      [
+        "2024–2026",
+        "Team experience"
+      ]
+    ],
+    "gallery": [],
+    "credit": "Role and activities documented in Brian Bertacco’s supplied CV. Team project, KTH Rocketry Team (ÆSIR).",
+    "cover": "type:rocket"
+  },
+  {
+    "slug": "mist-satellite",
+    "title": "MIST satellite",
+    "category": "Thermal engineering",
+    "kind": "KTH student satellite · 2025–2026",
+    "role": "Thermal Analysis Engineer",
+    "lead": "Thermal modelling and subsystem requirements within a student satellite team.",
+    "tags": [
+      "SYSTEMA",
+      "THERMICA",
+      "Spacecraft engineering"
+    ],
+    "source": null,
+    "overview": "MIST, the MIniature Student Satellite, provided experience with thermal analysis in a multidisciplinary spacecraft project. This work is separate from the thermal-vacuum and thermal-control coursework reports shown elsewhere in this portfolio.",
+    "work": [
+      "Performed thermal simulations using SYSTEMA and THERMICA.",
+      "Collaborated with the team on thermal-control subsystem requirements."
+    ],
+    "results": "The work contributed to the team’s assessment of the satellite’s thermal behaviour and connected simulation choices with spacecraft subsystem requirements.",
+    "limits": "This overview is based on the supplied CV. Mission-specific reports, thermal plots and photographs are not included in the present material, so no numerical performance claim is made here.",
+    "metrics": [
+      [
+        "SYSTEMA",
+        "Space environment modelling"
+      ],
+      [
+        "THERMICA",
+        "Thermal analysis"
+      ],
+      [
+        "2025–2026",
+        "Team experience"
+      ]
+    ],
+    "gallery": [],
+    "credit": "Role and activities documented in Brian Bertacco’s supplied CV. Team project, KTH MIST.",
+    "cover": "type:satellite"
+  }
+]

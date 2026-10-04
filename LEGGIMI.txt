@@ -1,0 +1,66 @@
+PORTFOLIO DI BRIAN BERTACCO
+Pacchetto statico per brianbertacco.github.io
+
+ANTEPRIMA SUL TUO PC
+1. Estrai completamente il file ZIP.
+2. Apri index.html con Chrome, Edge o Firefox.
+Il sito funziona anche senza un server o un'installazione di Node.
+In VS Code puoi aprire la cartella e utilizzare Live Server se preferisci.
+
+PUBBLICAZIONE SU GITHUB PAGES
+1. Apri https://github.com/brianbertacco/brianbertacco.github.io
+2. Nella scheda Code, controlla che sia selezionato il branch main.
+3. Scegli Add file > Upload files.
+4. Trascina il CONTENUTO della cartella estratta: index.html, style.css,
+   script.js, 404.html, assets, projects, documents e .nojekyll se visibile.
+   Non caricare lo ZIP e non racchiudere il sito in un'altra cartella.
+5. Controlla che index.html sia nella radice e che ci siano tutti i file
+   delle sottocartelle. Salva con Commit changes sul branch main.
+6. Settings > Pages: Deploy from a branch, main, / (root), Save.
+7. Quando il deployment è completato, apri https://brianbertacco.github.io
+   e aggiorna la pagina con Ctrl+F5 se vedi ancora il vecchio contenuto.
+
+Non è necessario caricare questo LEGGIMI, il README, IMMAGINI.md,
+project-content.json oppure SOURCES.md. Sono inclusi per manutenzione.
+Se carichi l'intero pacchetto, quei file saranno comunque pubblici.
+La pull request già presente non è stata esaminata o modificata durante
+questo lavoro: non serve unirla per usare questo pacchetto.
+
+CONTENUTI
+- Homepage responsive con filtri, ricerca, biografia e contatti.
+- 12 pagine progetto, navigazione tra progetti e ingrandimento figure.
+- I 10 report e il CV originali, senza modifiche.
+- Figure estratte dai report, con riferimenti al documento e alla pagina.
+- Nessuna immagine generata o rendering inventato dei tuoi progetti.
+- ÆSIR e MIST: schede basate sul CV, senza fotografie sostitutive.
+- Nessuna dipendenza esterna per font, script o stile.
+
+AGGIORNARE IL SITO
+Modifica index.html per homepage, contatti e biografia.
+Modifica projects/<nome>.html per le singole pagine.
+Modifica style.css per colori, font e impaginazione.
+Sostituisci documents/brian-bertacco-cv.pdf per aggiornare il CV.
+Mantieni i nomi dei file per conservare i link.
+Consulta IMMAGINI.md per la mappa foto/progetto e le istruzioni per
+sostituire una foto o aggiungerla a una galleria.
+project-content.json è una copia editoriale dei testi: NON aggiorna
+automaticamente le pagine HTML. Il sito non richiede un generatore.
+
+PUNTI DA COMPLETARE
+- Applied_CFD.pdf: le figure non sono incorporate; si vedono riquadri con
+  nomi di file. Invia una versione con figure per completare la galleria.
+- ÆSIR e MIST: puoi aggiungere foto e report specifici in un secondo momento.
+- Per CFD, aereo elettrico e missione lunare, i report non assegnano le
+  singole attività ai membri. Le pagine descrivono quindi i risultati di
+  gruppo senza attribuirti individualmente ogni analisi.
+- Le date 4 ottobre 2026 presenti in diversi report sembrano date di
+  compilazione: non sono state usate come date di esecuzione dei progetti.
+- Le immagini di SMART-1, eMMRTG, TALL-3D e Marte sono etichettate come
+  materiale illustrativo o di riferimento, non come hardware realizzato da te.
+- Il progetto Marte è indicato come studio concettuale accademico. Il report
+  distingue il tuo contributo power/thermal dal modello complessivo del team.
+- Le immagini e i dati provenienti dai lavori di gruppo mantengono i crediti.
+- Il CV scaricabile è quello originale e include i tuoi contatti personali.
+
+Questo pacchetto è pronto per l'anteprima e il caricamento manuale.
+Non è stato caricato sul tuo repository e non è stato pubblicato da qui.
