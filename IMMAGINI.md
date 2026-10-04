@@ -16,6 +16,16 @@ Le immagini fornite sono già state associate alle rispettive schede. I nomi qui
 | `eMMRTG.PNG` | `em-mrtg-reference.webp` | Radioisotope power, tesi BSc |
 | `earthdebris.png` | `earth-debris-user.webp` | Active removal of space debris |
 
+| `m1.jpg` | `aesir-nozzle.webp` | ÆSIR, ugello |
+| `m2.png` | `aesir-wide-fire.webp` | ÆSIR, static fire |
+| `m3.jpg` | `aesir-rig.webp` | ÆSIR, banco prova |
+| `m4.png / slide 4 del meeting` | `aesir-fire.webp` | ÆSIR, static fire |
+| `m5.png / slide 5 del meeting` | `aesir-thrust.webp` | ÆSIR, confronto spinta |
+| `MIST_hot_case.png` | `mist-hot-case.webp` | MIST, temperature |
+| `MIST_with_thermal_couplings1.png` | `mist-couplings.webp` | MIST, accoppiamenti termici |
+| `MIST_without_thermal_couplings1.png` | `mist-geometry.webp` | MIST, geometria |
+| `MIST_transient.gif` | `mist-transient-snapshot.webp` | MIST, singolo fotogramma |
+
 ## Sostituire una foto
 
 Il modo più semplice è sostituire il file `.webp` con una nuova immagine che abbia **lo stesso nome** nella cartella `assets/images/`, poi aggiornare i file nel repository. Così copertina, scheda e galleria continuano a puntare all'immagine corretta. Per convertire in WebP puoi usare un editor di immagini oppure conservare un nuovo formato e aggiornare i riferimenti.

@@ -14,8 +14,8 @@ PDF page numbers refer to physical pages, including front matter.
 | `mars-vehicle.html` | Vehicle_Design___Blue_Team.pdf | Power and thermal subsystem contributor |
 | `radioisotope-power.html` | TESI_BERTACCO_BRIAN.pdf | Thesis author |
 | `space-debris-removal.html` | Active Removal of Space Debris.pdf | Debris, spacecraft and cost analysis contributor |
-| `aesir-rocketry.html` | CV Brian Bertacco(1).pdf | Propulsion & Structures Engineer |
-| `mist-satellite.html` | CV Brian Bertacco(1).pdf | Thermal Analysis Engineer |
+| `aesir-rocketry.html` | CV Brian Bertacco(1).pdf; Mjollnir general meeting 26-08-2026.pdf; supplied ÆSIR photographs | Propulsion & Structures Engineer |
+| `mist-satellite.html` | CV Brian Bertacco(1).pdf; User-Friendly Guide - 20161204.pdf; supplied MIST model views | Thermal Analysis Engineer |
 
 ## Figure provenance
 
@@ -62,3 +62,17 @@ Numerical outcomes are framed as experiments, calculations or simulation results
 - `mars-vehicle.pdf`: SHA-256 `17514e44afd7b58ad63185d754486f47858cb3f9c731c3e1910a9d5a2724fe86`
 - `radioisotope-power.pdf`: SHA-256 `7412e02dafcd9f6f4466c2d6e1ff9af36baadcbe2bcdc4acc6b2885d84df4cca`
 - `space-debris-removal.pdf`: SHA-256 `4aaff4797fd27ad7ca247c0f7da0c09152c552fdf37b8906fc5fcdc48472cebc`
+
+## Additional team-project material (4 October 2026)
+
+- `aesir-fire.webp`: Mjolnir motor during a static-fire test. ÆSIR team photograph, general meeting of 26 August 2026, slide 4.
+- `aesir-nozzle.webp`: Nozzle and aft end of the hybrid motor on the test stand. ÆSIR team photograph.
+- `aesir-rig.webp`: Motor, feed lines and test rig before firing. ÆSIR team photograph.
+- `aesir-wide-fire.webp`: Wide view of a static-fire test and the surrounding ground equipment. ÆSIR team photograph.
+- `aesir-thrust.webp`: Measured HT2, HT4 and HT5 thrust histories alongside a full-duration simulation. ÆSIR team comparison, general meeting of 26 August 2026, slide 5.
+- `mist-hot-case.webp`: Temperature contour view supplied for the MIST hot-case study. Simulation output.
+- `mist-geometry.webp`: MIST model geometry with thermal-coupling connections hidden, showing the structure and internal components.
+- `mist-couplings.webp`: The MIST model with thermal-coupling connections displayed, showing the network of heat-transfer paths.
+- `mist-transient-snapshot.webp`: Snapshot from the supplied MIST transient-results export. Temperature contours are simulation output.
+
+The ÆSIR firing photograph and thrust plot use higher-resolution embedded images extracted from meeting slides 4 and 5, corresponding to the supplied m4.png and m5.png. The guide by Jacob Ask Olsson (2 December 2016) informs the broad MIST workflow and is not Brian’s authored report. No current orbit parameters, numerical thermal margins, flight qualification or sole ownership of the team models is inferred. MIST_transient.gif contains a single frame; it is presented as a static snapshot. Supplied source documents are used as references and are not added as public report downloads.
