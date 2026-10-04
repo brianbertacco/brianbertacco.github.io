@@ -520,14 +520,14 @@
       "Static-fire testing"
     ],
     "source": null,
-    "overview": "Mjolnir is the ÆSIR team’s hybrid paraffin–nitrous-oxide rocket project. My experience brought together propulsion analysis, test instrumentation and practical work around static-fire campaigns.",
+    "overview": "Mjolnir is ÆSIR’s hybrid rocket project at KTH, using paraffin fuel and nitrous oxide. Development combines propulsion modelling, mechanical integration, instrumentation and ground testing. My role in the propulsion and structures team connected analytical work with the practical preparation and assessment of static-fire tests.",
     "work": [
-      "Contributed to propulsion development and CFD analysis.",
-      "Participated in static-fire tests and sensor calibration.",
-      "Analysed load-cell measurements relevant to thrust and oxidiser-tank loading."
+      "Contributed to propulsion development, thermodynamic analysis and CFD work.",
+      "Participated in sensor calibration and static-fire testing.",
+      "Analysed load-cell measurements for thrust and oxidiser-tank loading."
     ],
-    "results": "The project developed my experience connecting engineering analysis with instrumented hardware and test data in a student rocketry team.",
-    "limits": "The rocket’s altitude is a design target, not a claimed flight result. This overview is based on the supplied CV; dedicated test reports and project photographs can be added later.",
+    "results": "The team’s August 2026 review brought together results from the summer static-fire campaign. Measured thrust histories were compared with propulsion predictions and used to refine the models. The review also identified fuel-regression and thermal-protection considerations for further development.",
+    "limits": "The photographs and thrust comparison show team hardware and team-level test results. My contribution is described above; the campaign and its outcomes involved several team members.",
     "metrics": [
       [
         "Hybrid",
@@ -542,9 +542,30 @@
         "Team experience"
       ]
     ],
-    "gallery": [],
-    "credit": "Role and activities documented in Brian Bertacco’s supplied CV. Team project, KTH Rocketry Team (ÆSIR).",
-    "cover": "type:rocket"
+    "gallery": [
+      {
+        "image": "aesir-fire.webp",
+        "caption": "Mjolnir motor during a static-fire test. ÆSIR team photograph, general meeting of 26 August 2026, slide 4."
+      },
+      {
+        "image": "aesir-nozzle.webp",
+        "caption": "Nozzle and aft end of the hybrid motor on the test stand. ÆSIR team photograph."
+      },
+      {
+        "image": "aesir-rig.webp",
+        "caption": "Motor, feed lines and test rig before firing. ÆSIR team photograph."
+      },
+      {
+        "image": "aesir-wide-fire.webp",
+        "caption": "Wide view of a static-fire test and the surrounding ground equipment. ÆSIR team photograph."
+      },
+      {
+        "image": "aesir-thrust.webp",
+        "caption": "Measured HT2, HT4 and HT5 thrust histories alongside a full-duration simulation. ÆSIR team comparison, general meeting of 26 August 2026, slide 5."
+      }
+    ],
+    "credit": "Team project: KTH Rocketry Team (ÆSIR). Personal role and activities are documented in my CV. Photographs were supplied as ÆSIR project material. The firing photograph and thrust comparison are reproduced from the team’s general meeting of 26 August 2026, slides 4–5.",
+    "cover": "aesir-fire.webp"
   },
   {
     "slug": "mist-satellite",
@@ -559,13 +580,13 @@
       "Spacecraft engineering"
     ],
     "source": null,
-    "overview": "MIST, the MIniature Student Satellite, provided experience with thermal analysis in a multidisciplinary spacecraft project. This work is separate from the thermal-vacuum and thermal-control coursework reports shown elsewhere in this portfolio.",
+    "overview": "MIST, the MIniature Student Satellite, is a multidisciplinary spacecraft project at KTH. My work focused on thermal simulations and thermal-control requirements: understanding how heat moves through the satellite and how its components respond to the space environment.",
     "work": [
       "Performed thermal simulations using SYSTEMA and THERMICA.",
       "Collaborated with the team on thermal-control subsystem requirements."
     ],
-    "results": "The work contributed to the team’s assessment of the satellite’s thermal behaviour and connected simulation choices with spacecraft subsystem requirements.",
-    "limits": "This overview is based on the supplied CV. Mission-specific reports, thermal plots and photographs are not included in the present material, so no numerical performance claim is made here.",
+    "results": "The model views and temperature maps illustrate the relationship between spacecraft geometry, internal components and heat-transfer paths. They provide a way to examine temperature distributions and support discussions about thermal-control choices within the wider satellite team.",
+    "limits": "The images are project simulation material, rather than measured in-orbit temperatures. This overview describes my thermal-analysis role and the broader team workflow; the model and mission were developed collaboratively.",
     "metrics": [
       [
         "SYSTEMA",
@@ -580,8 +601,39 @@
         "Team experience"
       ]
     ],
-    "gallery": [],
-    "credit": "Role and activities documented in Brian Bertacco’s supplied CV. Team project, KTH MIST.",
-    "cover": "type:satellite"
+    "gallery": [
+      {
+        "image": "mist-hot-case.webp",
+        "caption": "Temperature contour view supplied for the MIST hot-case study. Simulation output."
+      },
+      {
+        "image": "mist-geometry.webp",
+        "caption": "MIST model geometry with thermal-coupling connections hidden, showing the structure and internal components."
+      },
+      {
+        "image": "mist-couplings.webp",
+        "caption": "The MIST model with thermal-coupling connections displayed, showing the network of heat-transfer paths."
+      },
+      {
+        "image": "mist-transient-snapshot.webp",
+        "caption": "Snapshot from the supplied MIST transient-results export. Temperature contours are simulation output."
+      }
+    ],
+    "credit": "Team project: KTH MIST. Personal role and activities are documented in my CV. The workflow overview draws on Thermal control of MIST: A User-Friendly guide to Thermica and the thermal control of the MIST-spacecraft, by Jacob Ask Olsson (2 December 2016). This earlier guide is a project reference, not a report authored by me. Model views and temperature maps were supplied as MIST project material.",
+    "cover": "mist-hot-case.webp",
+    "workflow": [
+      {
+        "title": "Model the spacecraft",
+        "description": "Represent the geometry, materials and thermal properties of the structure and internal components."
+      },
+      {
+        "title": "Define heat paths and conditions",
+        "description": "Combine thermal couplings and component heat dissipation with the orbit and spacecraft orientation."
+      },
+      {
+        "title": "Run and review the analysis",
+        "description": "Examine temperature maps and time histories to inform thermal-control decisions and model updates."
+      }
+    ]
   }
 ]
